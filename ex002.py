@@ -1,0 +1,5 @@
+print ('====DÉFI 02====')
+dia = input ('Qual é o dia do seu aniversário?')
+mes = input ('E qual é o mês?')
+ano = input ('E o ano?')
+print ('Você nasceu no dia', dia, 'de', mes, 'de', ano, '. Correto?')

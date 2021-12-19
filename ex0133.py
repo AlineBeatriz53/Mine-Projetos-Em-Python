@@ -1,0 +1,6 @@
+print('====DÉFI 0133====')
+v1 = float(input('Qual o valor do produto: R$'))
+v = v1 - (v1 * 10 / 100 )
+p = v1 + (v1 * 8 / 100)
+print(f'Pagamento á vista: de R${v1:.2f} ficará por R${v:.2f}')
+print(f'Pagamento parcelado: de R${v1:.2f} por R${p:.2f}')
